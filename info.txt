@@ -1,0 +1,34 @@
+dev@dev-machine:/home/developer/go-microservices/mail-service$ go mod init mailer-service
+go: creating new go.mod: module mailer-service
+dev@dev-machine:/home/developer/go-microservices/mail-service$ go get github.com/go-chi/chi/v5
+go: added github.com/go-chi/chi/v5 v5.0.8
+dev@dev-machine:/home/developer/go-microservices/mail-service$ go get github.com/go-chi/chi/v5/middleware
+dev@dev-machine:/home/developer/go-microservices/mail-service$ go get github.com/go-chi/cors
+go: added github.com/go-chi/cors v1.2.1
+
+
+
+dev@dev-machine:/home/developer/go-microservices/mail-service$ go get github.com/vanng822/go-premailer/premailer
+go: downloading github.com/vanng822/go-premailer v1.20.2
+go: downloading github.com/PuerkitoBio/goquery v1.5.1
+go: downloading golang.org/x/net v0.0.0-20200904194848-62affa334b73
+go: downloading github.com/vanng822/css v1.0.1
+go: downloading github.com/andybalholm/cascadia v1.1.0
+go: added github.com/PuerkitoBio/goquery v1.5.1
+go: added github.com/andybalholm/cascadia v1.1.0
+go: added github.com/gorilla/css v1.0.0
+go: added github.com/vanng822/css v1.0.1
+go: added github.com/vanng822/go-premailer v1.20.2
+go: added golang.org/x/net v0.0.0-20200904194848-62affa334b73
+
+
+
+dev@dev-machine:/home/developer/go-microservices/mail-service$ go get github.com/xhit/go-simple-mail/v2
+go: downloading github.com/xhit/go-simple-mail/v2 v2.13.0
+go: downloading github.com/xhit/go-simple-mail v2.2.2+incompatible
+go: downloading github.com/toorop/go-dkim v0.0.0-20201103131630-e1cd1a0a5208
+go: added github.com/toorop/go-dkim v0.0.0-20201103131630-e1cd1a0a5208
+go: added github.com/xhit/go-simple-mail/v2 v2.13.0
+dev@dev-machine:/home/developer/go-microservices/mail-service$ 
+
+
